@@ -37,12 +37,15 @@ function paintPokemon($pokeData) {
         // var $pokeUrl = $('<p></p>')
         var $pokeName = $('<p></p>');
         
-        $pokeImage.attr("src","http://dummyimage.com/250x250/");
+        $pokeImage.attr("src","assets/images/pokemon.jpg");
         // $pokeUrl.attr(element.url)
-        $pokeName.text(element.name);  
+        $pokeName.text(element.name);
+        // console.log(pokeImage); 
+        // console.log(pokeName); 
         
-        $pokeImage.addClass = 'pokemonImg';
-        $pokeName.addClass = 'pokemonName';
+        $containerCaracters.addClass('pokeCont');
+        $pokeImage.addClass('pokemonImg');
+        $pokeName.addClass('pokemonName');
         
         $containerCaracters.append($pokeImage);
         $containerCaracters.append($pokeName);

@@ -1,10 +1,23 @@
 #logo {
     margin-left: 50vh;
+    margin-bottom: 80px;
     width: 50%;
 }
 
-#sectionPokemon{
-    display: inline-block;
-    margin-top: 100px;
+/* #sectionPokemon{
+    height: 30%;
+} */
 
+.pokeCont {
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+.pokemonImg {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 20px;
 }
